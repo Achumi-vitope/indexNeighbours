@@ -28,15 +28,15 @@ int main(){
             isLeft = 1; 
             printf("Left: %d\n", cells[cpM][cpN-1]);
             }
-        if(cpN < absN-1){ //If the Column index of CP is smaller than absN (cells[][absN] > cells[][cpN]), that means there exist a right cell.
+        if(cpN < absN-1){ //If the column index of CP is smaller than the column index of the grid than there exist a right cell.
             isRight = 1;
             printf("Right: %d\n", cells[cpM][cpN+1]);
             }
-        if(cpM != 0){//If the row index of CP is not 0 than there exist a top cell
+        if(cpM != 0){//If the row index of CP is not 0 than there exist a top cell.
             isTop = 1;
             printf("Top: %d\n", cells[cpM-1][cpN]);
             }
-        if(cpM < absM-1){ //if the row index of CP is smaller than absM i.e., 3 (0,1,2,3) there exist a bottom cell.
+        if(cpM < absM-1){ //if the row index of CP is smaller than the row index of the grid than there exist a bottom cell.
             isBot = 1;
             printf("Bottom: %d\n", cells[cpM+1][cpN]);
             }
