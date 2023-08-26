@@ -3,11 +3,11 @@
 * Form a given point CP, which is digit from the grid, be the center for a 3x3 2d Matrix.
 
 ### Example: Given a grid of size M, N > 3 :<br>
-| 4 | 5 | 8 | 9 | 11 |
-|---|---|---|---|----|
-| 17 | 14 | 34 | 7 | 22 |
-|----|----|----|---|----|
-| 66 | 88 | 56 | 23 | 66 |
-|----|----|----|----|----|
-| 0 | 4 | 96 | 14 | 16 |
-|---|---|----|----|----|
+<table>
+  <thead>Example</thead>
+  <th>
+    <tr>
+      <td>23</td>
+    </tr>
+  </th>
+</table>
