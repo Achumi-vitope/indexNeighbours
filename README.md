@@ -41,4 +41,4 @@
   </tr>
 </table>
 
-<span style="bg-color:red">Note: the numbers 1 to 25 are the digits contained in the indices and not the index itself.</span>
+<span style="background-color:red">Note: the numbers 1 to 25 are the digits contained in the indices and not the index itself.</span>
