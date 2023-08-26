@@ -6,7 +6,7 @@
 <table>
   <tr>
     <td>1</td>
-    <td>'''+ 2'''</td>
+    <td>2</td>
     <td>3</td>
     <td>4</td>
     <td>5</td>
@@ -42,5 +42,27 @@
 </table>
 
 > Note: The numbers 1 to 25 are the digits contained within the indices and not the indices 'themselves'.
+
++ Let CP or Current Point be <b>13</b>
+
++ Such that the cells surrounding (closest cells) <b>13</b> become a seperate 2d Matrix:
+<table>
+  <tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td><b>13</b></td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+  </tr>
+</table>
+  
 
 
