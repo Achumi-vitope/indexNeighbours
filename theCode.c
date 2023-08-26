@@ -20,7 +20,7 @@ int main(){
             }
         }
     }
-    //check if right, left, top, bottom index is present
+    //check if right, left, top, bottom index are present
     int isRight = 0, isLeft = 0, isTop = 0, isBot = 0; // 0 mean Flase, 1 mean True
     if(isPresent == 1){
         printf("Present Neighbours:\n");
