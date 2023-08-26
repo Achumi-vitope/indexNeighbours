@@ -8,8 +8,15 @@
   <th>
     <tr>
       <td>23</td>
+      <td>13</td>
+      <td>63</td>
+      <td>10</td>
+    </tr>
+    <tr>
       <td>23</td>
-      <td>23</td>
+      <td>13</td>
+      <td>63</td>
+      <td>10</td>
     </tr>
   </th>
 </table>
