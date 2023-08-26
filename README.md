@@ -65,6 +65,6 @@
   </tr>
 </table>
 
-* Now, this algorith will determine what value does 13's neighbouring top, left, right, and bottom cells hold.
+* Now, this algorithm will determine what value does 13's neighbouring top, left, right, and bottom cells hold.
 
 
