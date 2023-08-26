@@ -8,6 +8,8 @@
   <th>
     <tr>
       <td>23</td>
+      <td>23</td>
+      <td>23</td>
     </tr>
   </th>
 </table>
