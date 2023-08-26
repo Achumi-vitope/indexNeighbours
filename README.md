@@ -2,5 +2,6 @@
 * Assume a grid of size M, N > 3
 * Form a given point CP, which is digit from the grid, be the center for a 3x3 2d Matrix.
 
-** Example: Given a grid of:
+### Example: Given a grid of:<br>
 | 4 | 5 | 8 | 9 | 11 |
+----------------------
