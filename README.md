@@ -1,4 +1,5 @@
 ## This algorithm was made to determine whether there exist a top, bottom, left, and right neighbouring cells of a given index.
+> Note: I had to figure this out myself for the final year project and is only a test case, not the whole project itself.
 * Assume a grid of size M, N > 3
 * A given point CP, chosen randomly from the grid, be the center of a 3x3 2d Matrix.
 
