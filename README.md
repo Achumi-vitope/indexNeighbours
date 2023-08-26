@@ -41,4 +41,7 @@
   </tr>
 </table>
 
-<span style="background-color:red">Note: the numbers 1 to 25 are the digits contained in the indices and not the index itself.</span>
+<div style="background-color: #f0f0f0; padding: 10px;">
+This is a text with an opaque background color.
+</div>
+
