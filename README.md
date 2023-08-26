@@ -1,6 +1,6 @@
-## This algorithm was made to determine whether there exist top, bottom, left, right neighbouring cells of a given index.
+## This algorithm was made to determine whether there exist a top, bottom, left, and right neighbouring cells of a given index.
 * Assume a grid of size M, N > 3
-* From a given point CP, chosen randomly from the grid, be the center for a 3x3 2d Matrix.
+* A given point CP, chosen randomly from the grid, be the center of a 3x3 2d Matrix.
 
 ### Example: Given a grid of size M, N > 3 :<br>
 <table>
@@ -41,4 +41,6 @@
   </tr>
 </table>
 
-> Note: the numbers 1 to 25 are the digits contained in the indices and not the index itself
+> Note: The numbers 1 to 25 are the digits contained within the indices and not the indices 'themselves'.
+
+
