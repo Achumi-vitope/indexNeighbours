@@ -119,12 +119,12 @@ Each entry in the input represents either a **folder** or a **file** in the dire
 
 ### Interpreted Directory Structure:
 
-Parent/ <br>
-├── asset/ <br>
-│   └── images/ <br>
-│       └── image.png <br>
-├── inputs/ <br>
-│   └── input.txt <br>
+Parent/<br>
+├── asset/<br>
+│   └── images/<br>
+│   │   └── image.png<br>
+├── inputs/<br>
+│   └── input.txt<br>
 └── main.py
 
 ---
