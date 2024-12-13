@@ -39,6 +39,7 @@ Each entry in the input represents either a **folder** or a **file** in the dire
 ## Example
 
 ### Given the input:
+```
 + Python(0, 'f') 
 + asset(1, 'f') 
 + images(2, 'f') 
@@ -47,7 +48,7 @@ Each entry in the input represents either a **folder** or a **file** in the dire
 + input(2, 'txt') 
 + main(1, 'py') 
 + test(1, 'py')
-
+```
 ### Interpreted Directory Structure:
 ```
 Parent/
