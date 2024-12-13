@@ -49,7 +49,7 @@ Each entry in the input represents either a **folder** or a **file** in the dire
 + test(1, 'py')
 
 ### Interpreted Directory Structure:
-
+```
 Parent/
 ├── asset/
 │   └── images/
@@ -57,7 +57,7 @@ Parent/
 ├── inputs/
 │   └── input.txt
 └── main.py
-
+```
 ---
 
 ## Conclusion
