@@ -68,3 +68,61 @@
 * Now, this algorithm will determine what value does 13's neighbouring top, left, right, and bottom cells hold.
 
 
+
+# Example | Use Case
+
+## User may provide:
+
+/////////////////
+
+<filename(index: Integer, extension: String)>
+
+- Python(0, 'f') 
+- asset(1, 'f')
+- image(2, 'txt')
+- input(1, 'f')
+- input(2, 'txt')
+- main(1, 'py')
+- test(1, 'py')
+
+/////////////////
+
+Where: 
+- Any prefix without the dot (.) is considered a directory
+- "()" acts as parameter holders
+- "()" accepts the following: (Index, extension)
+- (0) denotes index (required) - Index with label may be used to determine where the file/folder will be placed  
+- (, py) denotes file extension (required) - If not provided, it is considered a folder/dir
+- The index determines how the dir will be structured.
+
+### For example:
+
+- Python(0, 'f') //Use f if it is a folder, else add the extension 
+- asset(1, 'f')
+- images(2, 'f')
+- image('3', 'png')
+- inputs(1, 'f')
+- input(2, txt)
+- main(1, py)
+
+#### is interpreted as 
+
+Python(Parent/Root Dir)-
+|
+|
+---- asset-
+|   |
+|   |
+|   ---- images-
+|       |
+|       |
+|       ---- image.png
+|
+|
+---- inputs-
+|   |
+|   |
+|   ---- ---- input.txt
+|
+|
+---- main.py
